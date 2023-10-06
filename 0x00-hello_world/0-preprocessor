@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc =E $CFILE =o c
+ 1 #!/bin/bash
+ 2 gcc $CFILE -E -o c
