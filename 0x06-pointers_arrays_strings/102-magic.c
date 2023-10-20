@@ -1,10 +1,5 @@
-#include "main.h"
 #include <stdio.h>
 
-/**
- * main - entry point
- * Return: Return void
- */
 int main(void)
 {
 	int n;
