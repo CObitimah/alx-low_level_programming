@@ -23,7 +23,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (!text_content)
-		text_content = " ";
+		text_content = "";
 	for (vletters = 0; text_content[vletters]; vletters++)
 		;
 	rwr = write(file_a, text_content, vletters);
