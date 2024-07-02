@@ -29,7 +29,14 @@ prev = next;
 next += step;
 }
 
+if (next >= size)
+{
+printf("Value found between indexes [%lu] and [%lu]\n", prev, size - 1);
+}
+else
+{
 printf("Value found between indexes [%lu] and [%lu]\n", prev, next);
+}
 
 for (i = prev; i < size && i <= next; i++)
 {
