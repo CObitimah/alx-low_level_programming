@@ -8,6 +8,7 @@
 * @array: Pointer to the first element of the array to search in.
 * @size: Number of elements in the array.
 * @value: The value to search for.
+*
 * Return: The first index where value is located, or -1 if value
 * is not present or array is NULL.
 */
@@ -36,5 +37,6 @@ printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 if (array[i] == value)
 return (i);
 }
+
 return (-1);
 }
